@@ -1,0 +1,173 @@
+[
+  {
+    "title": "蛋糕馆",
+    "child": [
+      {
+        "title": "芝士系列"
+      },
+      {
+        "title": "巧克力系列"
+      },
+      {
+        "title": "拿破仑系列"
+      },
+      {
+        "title": "慕斯系列"
+      },
+      {
+        "title": "乳脂系列"
+      },
+      {
+        "title": "选拼系列"
+      },
+      {
+        "title": "星座系列"
+      },
+      {
+        "title": "定制蛋糕"
+      }
+    ]
+  },
+  {
+    "title": "GAM蛋糕"
+  },
+  {
+    "title": "思蜜"
+  },
+  {
+    "title": "活动专享",
+    "child": [
+      {
+        "title": "最新活动"
+      },
+      {
+        "title": "积分商城"
+      }
+    ]
+  },
+  {
+    "title": "我的INCAKE",
+    "child": [
+      {
+        "title": "我的订单"
+      },
+      {
+        "title": "我的积分"
+      },
+      {
+        "title": "我的优惠券"
+      }
+    ]
+  },
+  {
+    "title": "企业专区",
+    "child": [
+      {
+        "title": "试吃申请"
+      },
+      {
+        "title": "企业VIP登录"
+      }
+    ]
+  },
+  {
+    "title": "轮播图",
+    "child": [
+      {
+        "img": "images/lun1.jpg"
+      },
+      {
+        "img": "images/lun2.jpg"
+      },
+      {
+        "img": "images/lun3.jpg"
+      },
+      {
+        "img": "images/lun4.jpg"
+      }
+    ]
+  },
+  {
+    "title": "精品推荐Recommend Products",
+    "child": [
+      {
+        "img": "images/1.jpg",
+        "title": "奶香巧克力",
+        "price": "¥189/1.2磅",
+        "text": "只留下奶香巧克力化也化不开的醇香"
+      },
+      {
+        "img": "images/2.jpg",
+        "title": "女王芝士",
+        "price": "¥189/1.5磅",
+        "text": "从第一口侵略到最后一口"
+      },
+      {
+        "img": "images/3.jpg",
+        "title": "浓情巧克力",
+        "price": "¥189/1.2磅",
+        "text": "浓滑如丝柔将巧克力的浓郁加倍"
+      },
+      {
+        "img": "images/4.jpg",
+        "title": "玛格丽特",
+        "price": "¥189/1.5磅",
+        "text": "吹拂的风是玛格丽特柔软的芬芳"
+      },
+      {
+        "img": "images/5.jpg",
+        "title": "芒果拿破仑",
+        "price": "¥189/1.5磅",
+        "text": "芒果酸甜多汁和酥皮酥脆清香"
+      },
+      {
+        "img": "images/6.jpg",
+        "title": "超级蜂巢",
+        "price": "¥229/1.8磅",
+        "text": "果浆比果酱更有热带水果的醇香"
+      },
+      {
+        "img": "images/7.jpg",
+        "title": "蓝莓拿破仑",
+        "price": "¥189/1.5磅",
+        "text": "一款经典拿破仑应有的品质"
+      },
+      {
+        "img": "images/8.jpg",
+        "title": "樱桃冻芝士",
+        "price": "¥189/1.5磅",
+        "text": "炎炎夏日的最佳选择"
+      }
+    ]
+  },
+  {
+    "title": "思蜜Insweet",
+    "child": [
+      {
+        "img": "images/9.jpg",
+        "title": "芝士星语",
+        "price": "¥99/4只装",
+        "text": "轻芝士带来绵密润滑"
+      },
+      {
+        "img": "images/10.jpg",
+        "title": "敬请期待",
+        "price": "¥0/0",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "child": [
+      {
+        "img": "images/11.jpg"
+      },
+      {
+        "img": "images/12.jpg"
+      },
+      {
+        "img": "images/13.jpg"
+      }
+    ]
+  }
+]

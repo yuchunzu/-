@@ -1,0 +1,496 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#header{
+	width: 100%;
+	height: 30px;
+}
+#header .Tin{
+	float: left;
+	margin-left: 10px;
+	color: #969696;
+	line-height: 30px;
+}
+#header .time{
+	float: left;
+	margin-left: 10px;
+	color: #969696;
+	line-height: 30px;
+}
+#header .ser{
+	float: left;
+	margin-left: 10px;
+	color: #969696;
+	line-height: 30px;
+}
+#header .stock{
+	float: left;
+	margin-left: 10px;
+	color: #969696;
+	line-height: 30px;
+}
+#header a img{
+	margin-left: 350px;
+}
+#login1{
+	margin-left: 20px;
+}
+#header .adr{
+	margin-left: 20px;
+}
+#nav{
+	width: 100%;
+	overflow: hidden;
+}
+#nav #img1{
+	width: 180px;
+	height: 80px;
+	float: left;
+	margin-left: 30px;
+}
+#nav #uli{
+	width: 1000px;
+	height: 80px;
+	float: left;
+	margin-left: 30px;
+}
+#uli ul li{
+	float: left;
+	line-height: 80px;
+	margin-left: 80px;
+}
+#uli ul li #cake{
+	width: 100px;
+	height: 420px;
+	background: #0d1974;
+	z-index: 1;
+	position: absolute;
+	top: 90px;
+	left: 295px;
+	text-align: center;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#uli ul li #cake #pd{
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 20px;
+	color: #fff;
+	border-bottom: 1px dotted #000;
+	margin-left: 10px;
+
+}
+#uli ul li #sales{
+	width: 100px;
+	height: 120px;
+	background: #0d1974;
+	z-index: 1;
+	position: absolute;
+	top: 90px;
+	left: 680px;
+	text-align: center;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#uli ul li #sales #act{
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 20px;
+	color: #fff;
+	border-bottom: 1px dotted #000;
+	margin-left: 10px;
+
+}
+#uli ul li #myInc{
+	width: 100px;
+	height: 160px;
+	background: #0d1974;
+	z-index: 1;
+	position: absolute;
+	top: 90px;
+	right: 330px;
+	text-align: center;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#uli ul li #myInc #inc{
+	text-align: center;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 20px;
+	color: #fff;
+	border-bottom: 1px dotted #000;
+	margin-left: 10px;
+
+}
+#uli ul li #enz{
+	width: 110px;
+	height: 120px;
+	background: #0d1974;
+	z-index: 1;
+	position: absolute;
+	top: 90px;
+	right: 170px;
+	text-align: center;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+#uli ul li #enz #ent{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	padding-top: 20px;
+	color: #fff;
+	border-bottom: 1px dotted #000;
+	margin-left: 10px;
+
+}
+#list{
+	width: 1200px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+#leftList{
+	width: 100px;
+	height: 400px;
+	float: left;
+	margin-left: 20px;
+}
+#leftList li{
+	padding-top: 20px;
+}
+#minList{
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	position: relative;
+}
+#minList li{
+	width: 400px;
+	height: 400px;
+	display: none;
+}
+#minList li img{
+	width: 100%;
+	height: 100%;
+		
+}
+#minList .active{
+	display: block;
+}
+#rightList{
+	width: 650px;
+	height: 500px;
+	float: left;
+	margin-left: 15px;
+}
+#rightList p{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 10px;
+}
+#rightList .price{
+	font-size: 20px;
+	margin-left: 10px;
+	font-weight: normal;
+	color: red;
+}
+#rightList #img1{
+	display: block;
+	margin-bottom: 10px;
+}
+#rightList .span{
+	margin-left: 50px;
+	font-size: 15px;
+	line-height: 30px;
+}
+#rightList .span1{
+	margin-top: 30px;
+	margin-left: 50px;
+	font-size: 15px;
+	line-height: 30px;
+}
+#rightList .number{
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-left: 50px;	
+}
+#num{
+	width: 50px;
+	height: 20px;
+	text-align: center;
+}
+#btn{
+	width: 100px;
+	height: 30px;
+	background: #0d1974;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#btn1{
+	width: 100px;
+	height: 30px;
+	background: blue;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 30px;	
+}
+#ball{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #0000ff;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	display: none;
+}
+#mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+#rightbox{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 530px;
+	top: 20px;
+	overflow: hidden;
+	display: none;
+}
+#rightbox img{
+	width: 1600px;
+	height: 1600px;
+	display: block;
+	border: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#part{
+	width: 1200px;
+	height: 500px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#title{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+}
+#title p{
+	text-align: center;
+	line-height: 30px;
+	font-weight: bolder;
+}
+#subject{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 20px;
+}
+#subject li{
+	float: left;
+	margin-left: 50px;
+	position: relative;
+}
+#subject p{
+	text-align: center;
+	margin-top: 10px;
+}
+#subject .txt{
+	width: 260px;
+	height: 30px;
+	line-height: 30px;
+	background: #000;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	position: absolute;
+	top: 220px;
+	left: 0;
+	color: #fff;
+	text-align: center;
+}
+#bottom{
+	width: 100%;
+	overflow: hidden;
+}
+#bottom #oimg1{
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+#bottom #l1{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+}
+#bottom #oimg2{
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-left: 180px;
+}
+#bottom #l2{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+}
+#bottom #oimg3{
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-left: 180px;
+}
+#bottom #l3{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+}
+#bottom #oimg4{
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-left: 180px;
+}
+#bottom #l4{
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+}
+#filter{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+}
+#filter #oimg5{
+	margin-left: 40px;
+	display: block;
+	float: left;
+}
+#filter #wec{
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+}
+#wec .title{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#wec .t2{
+	margin-top: 25px;
+}
+#filter #footer{
+	width: 100px;
+	overflow: hidden;
+	margin-left: 100px;
+	float: left;
+}
+#footer .l5{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#filter #footer1{
+	width: 100px;
+	overflow: hidden;
+	margin-left: 80px;
+	float: left;
+}
+#footer1 .l6{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#filter #footer2{
+	width: 100px;
+	overflow: hidden;
+	margin-left: 80px;
+	float: left;
+}
+#footer2 .l7{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#filter #footer3{
+	width: 100px;
+	overflow: hidden;
+	margin-left: 80px;
+	float: left;
+}
+#footer3 .l8{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#base{
+	width: 100%;
+	overflow: hidden;
+}
+#base #oimg6{
+	display: block;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+#base .day{
+	float: left;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+#base .service{
+	float: left;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+#base .tel{
+	float: left;
+	margin-left: 20px;
+	margin-top: 60px;
+	font-weight: bolder;
+	font-size: 20px;
+}
+#oimg7{
+	display: block;
+	float: left;
+	margin-left: 60px;
+	margin-top: 40px;	
+}
+#brief{
+	float: left;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+#brief p{
+	margin-top: 5px;
+}
